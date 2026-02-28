@@ -1,0 +1,74 @@
+{
+    "region_operations": {
+        "0": {
+            "task": "transformation",
+            "centroids": [
+                [
+                    330,
+                    217
+                ],
+                [
+                    330,
+                    296
+                ]
+            ],
+            "anchors": null
+        }
+    },
+    "point_operations": {
+        "begin_points": [
+            [
+                291,
+                308
+            ],
+            [
+                363,
+                295
+            ],
+            [
+                285,
+                141
+            ],
+            [
+                354,
+                118
+            ],
+            [
+                408,
+                183
+            ],
+            [
+                243,
+                232
+            ]
+        ],
+        "target_points": [
+            [
+                295,
+                397
+            ],
+            [
+                368,
+                383
+            ],
+            [
+                285,
+                225
+            ],
+            [
+                359,
+                198
+            ],
+            [
+                415,
+                269
+            ],
+            [
+                244,
+                320
+            ]
+        ]
+    },
+    "background_prompt": "A red octagonal STOP sign with white letters stands on a wooden pole. Behind it are bare trees, a pine tree, and suburban houses under a clear blue sky, capturing a typical residential street scene with crisp, bright lighting.",
+    "editing_prompt": "The sign board with the word STOP is moved to a lower place vertically on this image, repositioned on the wooden pole naturally."
+}

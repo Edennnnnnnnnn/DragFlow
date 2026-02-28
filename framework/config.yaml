@@ -1,0 +1,62 @@
+# Debug Options
+use_mask_visualization: False
+use_affine_visualization: False
+
+# Model Basis
+mode: 'flux'
+seed: 42
+model_path_flux: 'black-forest-labs/FLUX.1-dev'
+
+
+# Feature Phase
+lr: 1000.0
+use_grad_mask: True
+use_adap_scale: False
+golden_distance: 30
+target_block_feature_ids_flux:
+  - 'DOUBLE-17-0'
+  - 'DOUBLE-17-2'
+  - 'DOUBLE-18-0'
+  - 'DOUBLE-18-2'
+
+
+# Diffusion Phase (for Inversion):
+forward_diffusion_mode: "IN"
+inversion_step_num: 25
+sampling_step_num: 25
+skip_step_num: 6
+kappa_skip_step_num: ~
+inversion_guidance_scale: 1.0
+sampling_guidance_scale: 3.5
+show_step_images: ~
+
+ennoising_step_num: 25
+img2img_strength: ~
+
+
+# Dragging Phase:
+max_operation_num: 1
+max_dragging_num: 50
+max_intensify_num: 20
+use_optimizer: False                  # True for Adams; False for Autograd
+
+
+# Identity Preserving:
+## (KV HOOK)
+use_kv_hook: True
+use_hook__for_keys: True
+use_hook__for_values: True
+use_hook__for_doubles: True
+use_hook__for_singles: True
+eta: 0
+hook_timestep_combo: 'all'                # {all, after-drag, on-drag, except-last:k}
+hook_block_combo: 'non-ridge'             # {all, non-ridge, position, begin-from}
+
+
+## (IP ADAPTER)
+use_adapter: True
+adapter_subject_scale: 1.5
+adapter_path: './dependencies/checkpoints/instantcharacter_ip-adapter.bin'
+encoder_path_1: 'google/siglip-so400m-patch14-384'
+encoder_path_2: 'facebook/dinov2-giant'
+

@@ -1,0 +1,34 @@
+{
+    "region_operations": {
+        "0": {
+            "task": "deformation",
+            "centroids": [
+                [
+                    322,
+                    380
+                ],
+                [
+                    393,
+                    421
+                ]
+            ],
+            "anchors": null
+        }
+    },
+    "point_operations": {
+        "begin_points": [
+            [
+                314,
+                377
+            ]
+        ],
+        "target_points": [
+            [
+                384,
+                416
+            ]
+        ]
+    },
+    "background_prompt": "A scenic landscape features a modern green - and - blue train traveling through a vineyard (rows of green vines, wooden stakes). A historic stone castle stands by a turquoise lake, with mountain ranges (dark green peaks, rolling hills) in the background. The sky is partly cloudy (white - gray clouds, blue sky). The style is realistic, emphasizing natural beauty and man - made structures in harmony.",
+    "editing_prompt": "The front carriage of the train stretches along the tracks, adding length. The green - blue color scheme and sleek design stay consistent, with the new section matching existing carriages."
+}

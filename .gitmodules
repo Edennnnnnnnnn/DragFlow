@@ -1,0 +1,3 @@
+[submodule "dependencies/FireFlow"]
+	path = dependencies/FireFlow
+	url = https://github.com/HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing

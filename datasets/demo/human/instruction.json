@@ -1,0 +1,45 @@
+{
+    "region_operations": {
+        "0": {
+            "task": "rotation",
+            "centroids": [
+                [
+                    194,
+                    111
+                ],
+                [
+                    202,
+                    157
+                ]
+            ],
+            "anchors": [
+                106,
+                150
+            ]
+        }
+    },
+    "point_operations": {
+        "begin_points": [
+            [
+                228,
+                64
+            ],
+            [
+                184,
+                140
+            ]
+        ],
+        "target_points": [
+            [
+                262,
+                124
+            ],
+            [
+                189,
+                180
+            ]
+        ]
+    },
+    "background_prompt": "On a green soccer field, a referee in black attire raises a red card high. A player in blue stands nearby, facing the referee. The action - focused shot captures a moment of disciplinary decision in a competitive sports setting, with other players blurred in the background.",
+    "editing_prompt": "The right arm of the referee is shifted downward, with the red card facing the player's face."
+}

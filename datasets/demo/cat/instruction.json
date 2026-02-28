@@ -1,0 +1,53 @@
+{
+    "region_operations": {
+        "0": {
+            "task": "rotation",
+            "centroids": [
+                [
+                    356,
+                    300
+                ],
+                [
+                    324,
+                    278
+                ]
+            ],
+            "anchors": [
+                298,
+                351
+            ]
+        }
+    },
+    "point_operations": {
+        "begin_points": [
+            [
+                385,
+                250
+            ],
+            [
+                356,
+                301
+            ],
+            [
+                298,
+                348
+            ]
+        ],
+        "target_points": [
+            [
+                330,
+                216
+            ],
+            [
+                322,
+                274
+            ],
+            [
+                298,
+                349
+            ]
+        ]
+    },
+    "background_prompt": "A calico cat with orange, white, and brown fur sits on green grass, reaching upward with one paw. Warm, golden sunlight creates a blurred, dreamy background, highlighting the whiskers and fur of the cat, and lending a serene, playful atmosphere to the scene.",
+    "editing_prompt": "The right forepaw of the cat is shifted leftward, looking closer to its face and covering some whiskers."
+}

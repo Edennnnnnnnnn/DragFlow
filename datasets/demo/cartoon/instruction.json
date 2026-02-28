@@ -1,0 +1,45 @@
+{
+    "region_operations": {
+        "0": {
+            "task": "rotation",
+            "centroids": [
+                [
+                    136,
+                    301
+                ],
+                [
+                    175,
+                    292
+                ]
+            ],
+            "anchors": [
+                172,
+                371
+            ]
+        }
+    },
+    "point_operations": {
+        "begin_points": [
+            [
+                135,
+                302
+            ],
+            [
+                156,
+                340
+            ]
+        ],
+        "target_points": [
+            [
+                177,
+                295
+            ],
+            [
+                175,
+                340
+            ]
+        ]
+    },
+    "background_prompt": "A cute cartoon like a cat wears a red cap with a square buckle. It makes a peace sign, has pink cheeks, and a simple face. The background is a textured, bright blue - green canvas with whimsical shapes (stars, clouds, bubbles). The style is playful, hand - drawn, with a worn texture for a retro feel. Vivid colors create a cheerful vibe.",
+    "editing_prompt": "The right hand with peace sign of the cartoon cat is moved rightward."
+}
