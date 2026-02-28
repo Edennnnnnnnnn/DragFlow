@@ -2,7 +2,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Benchmarking Tool")
 parser.add_argument('--dataset_dir', type=str, default="./datasets/ReD_Bench")
 parser.add_argument('--demo_dir', type=str, default="./datasets/demo")
-parser.add_argument('--demo', type=str, default='cat')
+parser.add_argument('--demo', type=str, default=None)
 parser.add_argument('--device_0', type=str, default='0')
 parser.add_argument('--device_1', type=str, default='1')
 args = parser.parse_args()
