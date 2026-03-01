@@ -12,7 +12,8 @@ Xinlei Yu<sup>2</sup>,
 Adams Wai-Kin Kong<sup>1</sup> 
 
 <sup>1</sup>Nanyang Technological University, 
-<sup>2</sup>National University of Singapore; 
+<sup>2</sup>National University of Singapore
+
 <sup>*</sup>Equal Contribution
 
 
@@ -85,7 +86,7 @@ cd ../..
     ```
 
 ### 3. Model Initialization
-Then cache the IP-Adapter checkpoint using the following command:
+Then cache the adapter checkpoint using the following command:
 ```bash
 huggingface-cli download --resume-download Tencent/InstantCharacter --local-dir ./dependencies/checkpoints --local-dir-use-symlinks False
 ```
