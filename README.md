@@ -7,7 +7,7 @@ Zihan Zhou<sup>1,\*</sup>,
 Shilin Lu<sup>1,\*</sup>,
 Shuli Leng<sup>1</sup>,
 Shaocong Zhang<sup>1</sup>,
-Zhuming Lian<sup>2</sup>,
+Zhuming Lian<sup>1</sup>,
 Xinlei Yu<sup>2</sup>,
 Adams Wai-Kin Kong<sup>1</sup> 
 
@@ -18,7 +18,7 @@ Adams Wai-Kin Kong<sup>1</sup>
 
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue) &nbsp;
- <a href='https://arxiv.org/abs/2510.02253v2'><img src='https://img.shields.io/badge/arXiv-2510.02253-b31b1b.svg'></a> &nbsp;
+ <a href='https://arxiv.org/abs/2510.02253'><img src='https://img.shields.io/badge/arXiv-2510.02253-b31b1b.svg'></a> &nbsp;
  <a href='https://github.com/Edennnnnnnnnn/DragFlow'><img src='https://img.shields.io/badge/GitHub-DragFlow-purple.svg'></a> &nbsp;
  <a href='https://huggingface.co/datasets/Edennnnn/ReD_Bench'><img src='https://img.shields.io/badge/HuggingFace-ReD_Bench-yellow'></a> &nbsp;
 
